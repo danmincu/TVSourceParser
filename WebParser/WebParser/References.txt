@@ -21,3 +21,29 @@ where acelinux is the IP of the box and `476a37cfc950c919013344150626b42fa6c042e
 
 
 This program is parsing cool-tv.net to obtain the ace-stream-id's of Romanian televisions.
+
+
+vagrant file 
+`
+Vagrant.configure(2) do |config|
+  config.vm.box = "johnpbloch/trusty64"
+  config.vm.network "forwarded_port", guest: 8000, host: 8000 # for aceproxy
+  
+  # Provisioned once on VM creation
+  # Install acestream-engine and aceproxy
+  config.vm.provision "shell", inline: <<-SHELL
+    sudo sh -c 'echo "deb http://repo.acestream.org/ubuntu/ trusty main" >> /etc/apt/sources.list.d/acestream.list'
+    sudo wget -O - http://repo.acestream.org/keys/acestream.public.key | sudo apt-key add -
+    sudo apt-get update
+    sudo apt-get install -y python-gevent python-psutil git acestream-engine
+    git clone https://github.com/ValdikSS/aceproxy.git
+  SHELL
+  
+  # Provisioned every startup
+  # Start aceproxy and acestream-engine in screen sessions
+  config.vm.provision "shell", run: "always", inline: <<-SHELL
+    screen -S acestream -d -m acestreamengine --client-console
+    screen -S aceproxy -d -m python aceproxy/acehttp.py
+  SHELL
+end
+`
