@@ -1,0 +1,23 @@
+﻿
+Using Vagrant to deploy this image
+
+https://gist.github.com/jbergler/a51db1442ca226cc5973
+
+where I had to modify the vm.box to this https://app.vagrantup.com/johnpbloch/boxes/trusty64 because it wasn't working with hyper-v
+
+`
+Vagrant.configure("2") do |config|
+  config.vm.box = "johnpbloch/trusty64"
+end
+`
+
+I am annoyed as it needs the windows user name/password to install some CIF shares.
+
+Once it's up the vagrant box can play ace-stream-ids in VLC at the following address
+
+http://acelinux:8000/pid/476a37cfc950c919013344150626b42fa6c042eb/stream.mp4
+
+where acelinux is the IP of the box and `476a37cfc950c919013344150626b42fa6c042eb` is the Ace-stream-id
+
+
+This program is parsing cool-tv.net to obtain the ace-stream-id's of Romanian televisions.
