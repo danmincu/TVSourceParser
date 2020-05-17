@@ -1,0 +1,31 @@
+Vagrant.configure(2) do |config|
+  
+  # this is a random image of ubuntu 14 that happens to work with hyper-v; it could be changed
+  config.vm.box = "johnpbloch/trusty64"
+  
+  # unfortunately the next line is ignored in hyper-v
+  config.vm.network :private_network, ip: "172.17.91.90"
+  
+  config.vm.network "forwarded_port", guest: 8000, host: 8000 # for aceproxy
+  
+  # the next line disables the need to provide a username/password to mount an SMB folder as
+  # this configuration won't be using shared folders
+  config.vm.synced_folder ".", "/vagrant", disabled: true
+  
+  # Provisioned once on VM creation
+  # Install acestream-engine and aceproxy
+  config.vm.provision "shell", inline: <<-SHELL
+    sudo sh -c 'echo "deb http://repo.acestream.org/ubuntu/ trusty main" >> /etc/apt/sources.list.d/acestream.list'
+    sudo wget -O - http://repo.acestream.org/keys/acestream.public.key | sudo apt-key add -
+    sudo apt-get update
+    sudo apt-get install -y python-gevent python-psutil git acestream-engine
+    git clone https://github.com/ValdikSS/aceproxy.git
+  SHELL
+  
+  # Provisioned every startup
+  # Start aceproxy and acestream-engine in screen sessions
+  config.vm.provision "shell", run: "always", inline: <<-SHELL
+    screen -S acestream -d -m acestreamengine --client-console
+    screen -S aceproxy -d -m python aceproxy/acehttp.py
+  SHELL
+end
