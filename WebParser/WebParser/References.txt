@@ -11,7 +11,11 @@ Vagrant.configure("2") do |config|
 end
 `
 
-I am annoyed as it needs the windows user name/password to install some CIF shares.
+and also had to add the 
+
+`config.vm.synced_folder ".", "/vagrant", disabled: true` 
+
+like so it won't require the windows user name/password to install some SMB shares.
 
 Once it's up the vagrant box can play ace-stream-ids in VLC at the following address
 
@@ -27,7 +31,9 @@ vagrant file
 `
 Vagrant.configure(2) do |config|
   config.vm.box = "johnpbloch/trusty64"
+  config.vm.network :private_network, ip: "172.17.91.90"
   config.vm.network "forwarded_port", guest: 8000, host: 8000 # for aceproxy
+  config.vm.synced_folder ".", "/vagrant", disabled: true
   
   # Provisioned once on VM creation
   # Install acestream-engine and aceproxy
@@ -47,3 +53,14 @@ Vagrant.configure(2) do |config|
   SHELL
 end
 `
+
+IMPORTANT - hyper-v ignores the following network line
+
+`config.vm.network :private_network, ip: "172.17.91.90"`
+
+probably VirtualBox is a better option;
+
+
+after the `vagrant up` command the IP address is being displayed the end-user has to add to the host file that IP address
+
+`acelinux  xx.yy.zz.mm`
