@@ -1,14 +1,16 @@
 ﻿using System;
+using System.Collections.Concurrent;
 using System.Collections.Generic;
+using System.Linq;
 using System.Net.Http;
 using System.Text;
 using System.Text.RegularExpressions;
+using System.Threading.Tasks;
 
 namespace WebParser
 {
     class Program
     {
-
         static string playlistTemplate = @"<?xml version=""1.0"" encoding=""UTF-8""?>
             <playlist xmlns = ""http://xspf.org/ns/0/"" xmlns:vlc=""http://www.videolan.org/vlc/playlist/ns/0/"" version=""1"">
 	            <title>Playlist</title>
@@ -33,8 +35,10 @@ namespace WebParser
             var input = await response.Content.ReadAsStringAsync();
             string pattern = @"""(ch\/([^""]*).htm)""";
 
-            var pages = new Dictionary<string, string>();
-            var aceStreamsCollection = new HashSet<string>();
+            var pages = new ConcurrentDictionary<string, string>();
+            // use the following as a Concurrent HashSet since there no default implementation;
+            // the byte `value` is to be ignored
+            var aceStreamsCollection = new ConcurrentDictionary<string, byte>();
 
 
             RegexOptions options = RegexOptions.Multiline;
@@ -44,25 +48,27 @@ namespace WebParser
                 {
                     var siteRelativePath = m.Groups[1]?.Value;
                     if (!pages.ContainsKey(siteRelativePath))
-                        pages.Add(siteRelativePath, m.Groups[2]?.Value);
+                        pages.TryAdd(siteRelativePath, m.Groups[2]?.Value);
                 }
             }
 
             var idx = 1;
             var tracks = new StringBuilder();
-            foreach (var item in pages)
-            {
-                // Console.WriteLine($"{item.Key} - {item.Value}");
+
+            var tasks = pages.Select(item => Task.Run(async () => {
                 var aceStreamID = await getAceStreamIDAsync($"http://cool-tv.net/{item.Key}");
                 if (aceStreamID != null)
                 {
-                    if (!aceStreamsCollection.Contains(aceStreamID))
+                    if (!aceStreamsCollection.ContainsKey(aceStreamID))
                     {
-                        aceStreamsCollection.Add(aceStreamID);
+                        Console.WriteLine($"Found stream for {item.Value} #{idx}");
+                        aceStreamsCollection.TryAdd(aceStreamID, 0);
                         tracks.Append(PopulateTrackTemplate(item.Value, aceStreamID, idx++));
                     }
                 }
-            }
+            })).ToArray();
+
+            Task.WaitAll(tasks);
 
             var playList = playlistTemplate.Replace("$trackList$", tracks.ToString());
             Console.Write(playList);
