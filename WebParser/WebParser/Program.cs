@@ -105,7 +105,8 @@ namespace WebParser
             })).ToArray();
 
             Task.WaitAll(tasks);
-            var tracksString = string.Join('\n', tracks.Keys.OrderBy(k => k).Select(k => tracks[k]));
+            idx = 1;
+            var tracksString = string.Join('\n', tracks.Keys.OrderBy(k => k).Select(k => tracks[k].Replace("$idx$", (idx++).ToString())));
             var playList = playlistTemplate.Replace("$trackList$", tracksString);
             Console.Write(playList);
             System.IO.File.WriteAllText("playlist.xspf", playList);
@@ -155,7 +156,7 @@ namespace WebParser
         {
             var s = trackTemplate.Replace("$title$", title);
             s = s.Replace("$streamId$", aceStreamID);
-            s = s.Replace("$idx$", idx.ToString());
+            //s = s.Replace("$idx$", idx.ToString());
             return s;
         }
 

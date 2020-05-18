@@ -6,6 +6,15 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Include="..\..\Scripts\install.bat" Link="install.bat">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="..\..\Scripts\start.bat" Link="start.bat">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="..\..\Scripts\stop.bat" Link="stop.bat">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="..\..\vagrant\Vagrantfile" Link="Vagrantfile">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
