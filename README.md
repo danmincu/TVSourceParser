@@ -5,6 +5,7 @@ One click to parse `Romanian television sources` followed by creation with Vagra
 It should work with both `Hyper-V` and `Oracle's VirtualBox`; The VirtualBox solution should work on MacOS/Linux although in Linux the native code could be used.
 
 Prerequisites: 
+
 0. Windows (compile the c# for linux or macos if needed)
 1. HyperV or Virtual Box
 2. Vagrant
