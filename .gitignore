@@ -9,3 +9,4 @@
 /WebParser/WebParser/bin/Debug/netcoreapp3.1
 /WebParser/WebParser/obj/Debug/netcoreapp3.1
 /WebParser/WebParser/obj
+*.dtbcache
