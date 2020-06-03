@@ -4,23 +4,23 @@
                 <trackList>
                 <track>
             <title>acasatv</title>
-            <location>http://127.0.0.1:8000/pid/36d21afa0a7e9fa1786826e63100c79e4976cbe2/stream.mp4</location>
+            <location>http://acelinux:8000/pid/36d21afa0a7e9fa1786826e63100c79e4976cbe2/stream.mp4</location>
 			    <extension application="http://www.videolan.org/vlc/playlist/0">
                     <vlc:id>1</vlc:id>
 				    <vlc:option>network-caching=1000</vlc:option>
 			    </extension>
 		    </track>
 <track>
-            <title>acasatv-gold</title>
-            <location>http://127.0.0.1:8000/pid/88bf0ab82718942b350a7bd470366bc5db8f70fa/stream.mp4</location>
+            <title>acasatv-gold-s2</title>
+            <location>http://acelinux:8000/pid/ee0061d19e4b04fb92a1fcee31db143a0e985913/stream.mp4</location>
 			    <extension application="http://www.videolan.org/vlc/playlist/0">
                     <vlc:id>2</vlc:id>
 				    <vlc:option>network-caching=1000</vlc:option>
 			    </extension>
 		    </track>
 <track>
-            <title>an1-s2</title>
-            <location>http://127.0.0.1:8000/pid/afd7661f3d70521f05bf7f190445ac9e975539cd/stream.mp4</location>
+            <title>an1-s3</title>
+            <location>http://acelinux:8000/pid/afd7661f3d70521f05bf7f190445ac9e975539cd/stream.mp4</location>
 			    <extension application="http://www.videolan.org/vlc/playlist/0">
                     <vlc:id>3</vlc:id>
 				    <vlc:option>network-caching=1000</vlc:option>
@@ -28,15 +28,15 @@
 		    </track>
 <track>
             <title>an2-s1</title>
-            <location>http://127.0.0.1:8000/pid/b08a86e4dcce357ab2f8d5228f960d3338d1a83b/stream.mp4</location>
+            <location>http://acelinux:8000/pid/82dde5e64f82fe508e75a1f18317b8c7f5b36ca3/stream.mp4</location>
 			    <extension application="http://www.videolan.org/vlc/playlist/0">
                     <vlc:id>4</vlc:id>
 				    <vlc:option>network-caching=1000</vlc:option>
 			    </extension>
 		    </track>
 <track>
-            <title>an3</title>
-            <location>http://127.0.0.1:8000/pid/ca6ad85e2d51bee59856d5f4d807e649ca3ae75a/stream.mp4</location>
+            <title>an3-s2</title>
+            <location>http://acelinux:8000/pid/ca6ad85e2d51bee59856d5f4d807e649ca3ae75a/stream.mp4</location>
 			    <extension application="http://www.videolan.org/vlc/playlist/0">
                     <vlc:id>5</vlc:id>
 				    <vlc:option>network-caching=1000</vlc:option>
@@ -44,15 +44,15 @@
 		    </track>
 <track>
             <title>an3-s4</title>
-            <location>http://127.0.0.1:8000/pid/50739b15fcaed509ee1c91b3de191482abc4b388/stream.mp4</location>
+            <location>http://acelinux:8000/pid/50739b15fcaed509ee1c91b3de191482abc4b388/stream.mp4</location>
 			    <extension application="http://www.videolan.org/vlc/playlist/0">
                     <vlc:id>6</vlc:id>
 				    <vlc:option>network-caching=1000</vlc:option>
 			    </extension>
 		    </track>
 <track>
-            <title>animal</title>
-            <location>http://127.0.0.1:8000/pid/0bf0830408f189449035d35d43a5c526e9bd08e8/stream.mp4</location>
+            <title>animal-s2</title>
+            <location>http://acelinux:8000/pid/0bf0830408f189449035d35d43a5c526e9bd08e8/stream.mp4</location>
 			    <extension application="http://www.videolan.org/vlc/playlist/0">
                     <vlc:id>7</vlc:id>
 				    <vlc:option>network-caching=1000</vlc:option>
@@ -60,7 +60,7 @@
 		    </track>
 <track>
             <title>anime-bites</title>
-            <location>http://127.0.0.1:8000/pid/7a55521331d3268a10259a75ed50cff9b185a693/stream.mp4</location>
+            <location>http://acelinux:8000/pid/7a55521331d3268a10259a75ed50cff9b185a693/stream.mp4</location>
 			    <extension application="http://www.videolan.org/vlc/playlist/0">
                     <vlc:id>8</vlc:id>
 				    <vlc:option>network-caching=1000</vlc:option>
@@ -68,7 +68,7 @@
 		    </track>
 <track>
             <title>axn</title>
-            <location>http://127.0.0.1:8000/pid/02fe9b7f73c7ee530a496251acd8080c15b5f268/stream.mp4</location>
+            <location>http://acelinux:8000/pid/02fe9b7f73c7ee530a496251acd8080c15b5f268/stream.mp4</location>
 			    <extension application="http://www.videolan.org/vlc/playlist/0">
                     <vlc:id>9</vlc:id>
 				    <vlc:option>network-caching=1000</vlc:option>
@@ -76,7 +76,7 @@
 		    </track>
 <track>
             <title>axncr</title>
-            <location>http://127.0.0.1:8000/pid/9eeda5af37048ad1c5da3a49d80581eb86c155d0/stream.mp4</location>
+            <location>http://acelinux:8000/pid/9eeda5af37048ad1c5da3a49d80581eb86c155d0/stream.mp4</location>
 			    <extension application="http://www.videolan.org/vlc/playlist/0">
                     <vlc:id>10</vlc:id>
 				    <vlc:option>network-caching=1000</vlc:option>
@@ -84,7 +84,7 @@
 		    </track>
 <track>
             <title>axnsci</title>
-            <location>http://127.0.0.1:8000/pid/4aee337d80adca1e5a344fcf71c26d0f19756695/stream.mp4</location>
+            <location>http://acelinux:8000/pid/4aee337d80adca1e5a344fcf71c26d0f19756695/stream.mp4</location>
 			    <extension application="http://www.videolan.org/vlc/playlist/0">
                     <vlc:id>11</vlc:id>
 				    <vlc:option>network-caching=1000</vlc:option>
@@ -92,7 +92,7 @@
 		    </track>
 <track>
             <title>axn-spin</title>
-            <location>http://127.0.0.1:8000/pid/b11f9be4a0d033fedab04bd4a7d141f886f0479e/stream.mp4</location>
+            <location>http://acelinux:8000/pid/b11f9be4a0d033fedab04bd4a7d141f886f0479e/stream.mp4</location>
 			    <extension application="http://www.videolan.org/vlc/playlist/0">
                     <vlc:id>12</vlc:id>
 				    <vlc:option>network-caching=1000</vlc:option>
@@ -100,7 +100,7 @@
 		    </track>
 <track>
             <title>b1</title>
-            <location>http://127.0.0.1:8000/pid/66d2efe6deee109586a02dd24462626c6e7c858f/stream.mp4</location>
+            <location>http://acelinux:8000/pid/66d2efe6deee109586a02dd24462626c6e7c858f/stream.mp4</location>
 			    <extension application="http://www.videolan.org/vlc/playlist/0">
                     <vlc:id>13</vlc:id>
 				    <vlc:option>network-caching=1000</vlc:option>
@@ -108,39 +108,39 @@
 		    </track>
 <track>
             <title>bbc-know</title>
-            <location>http://127.0.0.1:8000/pid/d8ad9b1d966de683c47c7daac8cd85d60c0fd1db/stream.mp4</location>
+            <location>http://acelinux:8000/pid/d8ad9b1d966de683c47c7daac8cd85d60c0fd1db/stream.mp4</location>
 			    <extension application="http://www.videolan.org/vlc/playlist/0">
                     <vlc:id>14</vlc:id>
 				    <vlc:option>network-caching=1000</vlc:option>
 			    </extension>
 		    </track>
 <track>
-            <title>boomerang</title>
-            <location>http://127.0.0.1:8000/pid/4150ccef1b5606d8388ced1d18c0d8a55d755433/stream.mp4</location>
+            <title>bollywood-clasic-s1</title>
+            <location>http://acelinux:8000/pid/73eecb8056e6cff8d15d689cb6da38cf9024bda7/stream.mp4</location>
 			    <extension application="http://www.videolan.org/vlc/playlist/0">
                     <vlc:id>15</vlc:id>
 				    <vlc:option>network-caching=1000</vlc:option>
 			    </extension>
 		    </track>
 <track>
-            <title>cartoon</title>
-            <location>http://127.0.0.1:8000/pid/8fa697725089e8e4105acc9983f61d449a989cc7/stream.mp4</location>
+            <title>bollywood-tv-s1</title>
+            <location>http://acelinux:8000/pid/21ba23d7ec08860d8ef3177359e2c17377983d13/stream.mp4</location>
 			    <extension application="http://www.videolan.org/vlc/playlist/0">
                     <vlc:id>16</vlc:id>
 				    <vlc:option>network-caching=1000</vlc:option>
 			    </extension>
 		    </track>
 <track>
-            <title>cartoon-s2flash</title>
-            <location>http://127.0.0.1:8000/pid/4e325b6a460b449651cfe1fd276c0c3867b0ebf6/stream.mp4</location>
+            <title>boomerang-s2</title>
+            <location>http://acelinux:8000/pid/b0a7335f9e31f02282983949ba3f238bba1da32f/stream.mp4</location>
 			    <extension application="http://www.videolan.org/vlc/playlist/0">
                     <vlc:id>17</vlc:id>
 				    <vlc:option>network-caching=1000</vlc:option>
 			    </extension>
 		    </track>
 <track>
-            <title>cimax-s1</title>
-            <location>http://127.0.0.1:8000/pid/34b1402557fb7faab2979361c4e9650fa0948724/stream.mp4</location>
+            <title>cartoon</title>
+            <location>http://acelinux:8000/pid/75e360a816a248f0911f1f84abf72a34b82a8738/stream.mp4</location>
 			    <extension application="http://www.videolan.org/vlc/playlist/0">
                     <vlc:id>18</vlc:id>
 				    <vlc:option>network-caching=1000</vlc:option>
@@ -148,79 +148,79 @@
 		    </track>
 <track>
             <title>cinemax2-s1</title>
-            <location>http://127.0.0.1:8000/pid/cb5df1d65e01c6211380040ce6d844b120f1a0c3/stream.mp4</location>
+            <location>http://acelinux:8000/pid/cb5df1d65e01c6211380040ce6d844b120f1a0c3/stream.mp4</location>
 			    <extension application="http://www.videolan.org/vlc/playlist/0">
                     <vlc:id>19</vlc:id>
 				    <vlc:option>network-caching=1000</vlc:option>
 			    </extension>
 		    </track>
 <track>
-            <title>comedy-central</title>
-            <location>http://127.0.0.1:8000/pid/19d6d411fa195b913d1881060f3ee54e19aa143d/stream.mp4</location>
+            <title>cinemax-s1</title>
+            <location>http://acelinux:8000/pid/34b1402557fb7faab2979361c4e9650fa0948724/stream.mp4</location>
 			    <extension application="http://www.videolan.org/vlc/playlist/0">
                     <vlc:id>20</vlc:id>
 				    <vlc:option>network-caching=1000</vlc:option>
 			    </extension>
 		    </track>
 <track>
-            <title>disco</title>
-            <location>http://127.0.0.1:8000/pid/69db7bc697ca47eaf5e5db23caf85690e9969e8f/stream.mp4</location>
+            <title>comedy-central</title>
+            <location>http://acelinux:8000/pid/19d6d411fa195b913d1881060f3ee54e19aa143d/stream.mp4</location>
 			    <extension application="http://www.videolan.org/vlc/playlist/0">
                     <vlc:id>21</vlc:id>
 				    <vlc:option>network-caching=1000</vlc:option>
 			    </extension>
 		    </track>
 <track>
-            <title>discoid-s2</title>
-            <location>http://127.0.0.1:8000/pid/a46bdc1273d5a3004fca1a11e7b39b76c81d64c5/stream.mp4</location>
+            <title>disco</title>
+            <location>http://acelinux:8000/pid/20e3bc8d2be583b13c133a8a1b8d7896f8b72d67/stream.mp4</location>
 			    <extension application="http://www.videolan.org/vlc/playlist/0">
                     <vlc:id>22</vlc:id>
 				    <vlc:option>network-caching=1000</vlc:option>
 			    </extension>
 		    </track>
 <track>
-            <title>discoscience</title>
-            <location>http://127.0.0.1:8000/pid/5a959a7dc13f39e4c5a82f1b7d1eb8ccf7a46b9d/stream.mp4</location>
+            <title>discoid-s2</title>
+            <location>http://acelinux:8000/pid/abc847821d3f7c1a8ae19668aec5e01967e23e28/stream.mp4</location>
 			    <extension application="http://www.videolan.org/vlc/playlist/0">
                     <vlc:id>23</vlc:id>
 				    <vlc:option>network-caching=1000</vlc:option>
 			    </extension>
 		    </track>
 <track>
-            <title>discotravel</title>
-            <location>http://127.0.0.1:8000/pid/dd94ad12c8b31ed9ac6c48f13711d0c71583e2b3/stream.mp4</location>
+            <title>discoscience-s2</title>
+            <location>http://acelinux:8000/pid/5a959a7dc13f39e4c5a82f1b7d1eb8ccf7a46b9d/stream.mp4</location>
 			    <extension application="http://www.videolan.org/vlc/playlist/0">
                     <vlc:id>24</vlc:id>
 				    <vlc:option>network-caching=1000</vlc:option>
 			    </extension>
 		    </track>
 <track>
-            <title>diva</title>
-            <location>http://127.0.0.1:8000/pid/1be325e0c93d2c9e22fb2007f668d9dd7ef1b281/stream.mp4</location>
+            <title>discotravel-s2</title>
+            <location>http://acelinux:8000/pid/5d5a62f7df276bf58ee646f1de40f5f014620d1e/stream.mp4</location>
 			    <extension application="http://www.videolan.org/vlc/playlist/0">
                     <vlc:id>25</vlc:id>
 				    <vlc:option>network-caching=1000</vlc:option>
 			    </extension>
 		    </track>
 <track>
-            <title>dolce1-s1</title>
-            <location>http://127.0.0.1:8000/pid/b521f9e4b8a62cc9247d870dc441a0a21096f03c/stream.mp4</location>
+            <title>diva</title>
+            <location>http://acelinux:8000/pid/6d795b960b1a81dfbfa32d6bf944a9ab4e274684/stream.mp4</location>
 			    <extension application="http://www.videolan.org/vlc/playlist/0">
                     <vlc:id>26</vlc:id>
 				    <vlc:option>network-caching=1000</vlc:option>
 			    </extension>
 		    </track>
 <track>
-            <title>dolce2-s2</title>
-            <location>http://127.0.0.1:8000/pid/fcd13abdecf8c5d2eb897eb908961c4e0d9fbcf4/stream.mp4</location>
+            <title>dolce1-s1</title>
+            <location>http://acelinux:8000/pid/b521f9e4b8a62cc9247d870dc441a0a21096f03c/stream.mp4</location>
 			    <extension application="http://www.videolan.org/vlc/playlist/0">
                     <vlc:id>27</vlc:id>
 				    <vlc:option>network-caching=1000</vlc:option>
 			    </extension>
 		    </track>
 <track>
-            <title>dolce3-s1</title>
-            <location>http://127.0.0.1:8000/pid/175c67754cce2f560c262af983f2d2f19ea09e6a/stream.mp4</location>
+            <title>dolce2-s1</title>
+            <location>http://acelinux:8000/pid/fcd13abdecf8c5d2eb897eb908961c4e0d9fbcf4/stream.mp4</location>
 			    <extension application="http://www.videolan.org/vlc/playlist/0">
                     <vlc:id>28</vlc:id>
 				    <vlc:option>network-caching=1000</vlc:option>
@@ -228,7 +228,7 @@
 		    </track>
 <track>
             <title>dolce4-s1</title>
-            <location>http://127.0.0.1:8000/pid/4c4116749607daf31bc19f20fdcf0135505ad3af/stream.mp4</location>
+            <location>http://acelinux:8000/pid/4c4116749607daf31bc19f20fdcf0135505ad3af/stream.mp4</location>
 			    <extension application="http://www.videolan.org/vlc/playlist/0">
                     <vlc:id>29</vlc:id>
 				    <vlc:option>network-caching=1000</vlc:option>
@@ -236,7 +236,7 @@
 		    </track>
 <track>
             <title>euforia</title>
-            <location>http://127.0.0.1:8000/pid/26c6ff732cf764ab43f0f40421d6b8d80dd90ea9/stream.mp4</location>
+            <location>http://acelinux:8000/pid/26c6ff732cf764ab43f0f40421d6b8d80dd90ea9/stream.mp4</location>
 			    <extension application="http://www.videolan.org/vlc/playlist/0">
                     <vlc:id>30</vlc:id>
 				    <vlc:option>network-caching=1000</vlc:option>
@@ -244,7 +244,7 @@
 		    </track>
 <track>
             <title>euro1</title>
-            <location>http://127.0.0.1:8000/pid/107b96e2b826f0a44955afc4c76c9d5a5307afa8/stream.mp4</location>
+            <location>http://acelinux:8000/pid/107b96e2b826f0a44955afc4c76c9d5a5307afa8/stream.mp4</location>
 			    <extension application="http://www.videolan.org/vlc/playlist/0">
                     <vlc:id>31</vlc:id>
 				    <vlc:option>network-caching=1000</vlc:option>
@@ -252,255 +252,255 @@
 		    </track>
 <track>
             <title>euro1-s2</title>
-            <location>http://127.0.0.1:8000/pid/5d6b1cd01c62bfec9431be8fcfe8b72796b68631/stream.mp4</location>
+            <location>http://acelinux:8000/pid/5d6b1cd01c62bfec9431be8fcfe8b72796b68631/stream.mp4</location>
 			    <extension application="http://www.videolan.org/vlc/playlist/0">
                     <vlc:id>32</vlc:id>
 				    <vlc:option>network-caching=1000</vlc:option>
 			    </extension>
 		    </track>
 <track>
-            <title>euro2</title>
-            <location>http://127.0.0.1:8000/pid/89122a1bb3fab471ce54ba405e28c2efa592fffe/stream.mp4</location>
+            <title>euro2-s2</title>
+            <location>http://acelinux:8000/pid/89122a1bb3fab471ce54ba405e28c2efa592fffe/stream.mp4</location>
 			    <extension application="http://www.videolan.org/vlc/playlist/0">
                     <vlc:id>33</vlc:id>
 				    <vlc:option>network-caching=1000</vlc:option>
 			    </extension>
 		    </track>
 <track>
-            <title>film-cafe</title>
-            <location>http://127.0.0.1:8000/pid/a1f1cbaf8339d8ec1a6b01daf6c4e3832aac8c24/stream.mp4</location>
+            <title>favorit</title>
+            <location>http://acelinux:8000/pid/11f263ffbab0d110a639eb1fd141370dbf7515d7/stream.mp4</location>
 			    <extension application="http://www.videolan.org/vlc/playlist/0">
                     <vlc:id>34</vlc:id>
 				    <vlc:option>network-caching=1000</vlc:option>
 			    </extension>
 		    </track>
 <track>
-            <title>history-s2</title>
-            <location>http://127.0.0.1:8000/pid/7eab20ed5bd4759fc5c60f8f3d387b8635772a95/stream.mp4</location>
+            <title>film-cafe</title>
+            <location>http://acelinux:8000/pid/a1f1cbaf8339d8ec1a6b01daf6c4e3832aac8c24/stream.mp4</location>
 			    <extension application="http://www.videolan.org/vlc/playlist/0">
                     <vlc:id>35</vlc:id>
 				    <vlc:option>network-caching=1000</vlc:option>
 			    </extension>
 		    </track>
 <track>
-            <title>hro-s1</title>
-            <location>http://127.0.0.1:8000/pid/be079d97d65e0185b12a95582053ba5d05aa7d7f/stream.mp4</location>
+            <title>history</title>
+            <location>http://acelinux:8000/pid/75add004290fe646d14f5c45518ce48eaef6e814/stream.mp4</location>
 			    <extension application="http://www.videolan.org/vlc/playlist/0">
                     <vlc:id>36</vlc:id>
 				    <vlc:option>network-caching=1000</vlc:option>
 			    </extension>
 		    </track>
 <track>
-            <title>hro-s2</title>
-            <location>http://127.0.0.1:8000/pid/96e66e5c426afd1a22196e5c9cc67c4641bf77d5/stream.mp4</location>
+            <title>hro-s1</title>
+            <location>http://acelinux:8000/pid/72d7dc4b5eb02a7563347244abe32dc57d127a43/stream.mp4</location>
 			    <extension application="http://www.videolan.org/vlc/playlist/0">
                     <vlc:id>37</vlc:id>
 				    <vlc:option>network-caching=1000</vlc:option>
 			    </extension>
 		    </track>
 <track>
-            <title>hro-s3</title>
-            <location>http://127.0.0.1:8000/pid/671e1eda250d45bd8aee38e552633b0fea99035d/stream.mp4</location>
+            <title>hro-s2</title>
+            <location>http://acelinux:8000/pid/96e66e5c426afd1a22196e5c9cc67c4641bf77d5/stream.mp4</location>
 			    <extension application="http://www.videolan.org/vlc/playlist/0">
                     <vlc:id>38</vlc:id>
 				    <vlc:option>network-caching=1000</vlc:option>
 			    </extension>
 		    </track>
 <track>
-            <title>jetix-cartoon-s2</title>
-            <location>http://127.0.0.1:8000/pid/3c0bf40ac20270586b01aa700868b219f00697e0/stream.mp4</location>
+            <title>hro-s3</title>
+            <location>http://acelinux:8000/pid/671e1eda250d45bd8aee38e552633b0fea99035d/stream.mp4</location>
 			    <extension application="http://www.videolan.org/vlc/playlist/0">
                     <vlc:id>39</vlc:id>
 				    <vlc:option>network-caching=1000</vlc:option>
 			    </extension>
 		    </track>
 <track>
-            <title>jetix-junior-s2</title>
-            <location>http://127.0.0.1:8000/pid/58de832b25f3a32384398b737b5b05d53f4f417c/stream.mp4</location>
+            <title>jetix-cartoon</title>
+            <location>http://acelinux:8000/pid/80f529a5b58d05cad7d9792263afaf3a2132ae83/stream.mp4</location>
 			    <extension application="http://www.videolan.org/vlc/playlist/0">
                     <vlc:id>40</vlc:id>
 				    <vlc:option>network-caching=1000</vlc:option>
 			    </extension>
 		    </track>
 <track>
-            <title>kanald</title>
-            <location>http://127.0.0.1:8000/pid/de2b65a8c41b8efa99f634436f17ef4cf22e41fa/stream.mp4</location>
+            <title>jetix-junior</title>
+            <location>http://acelinux:8000/pid/25f18e540da62fd360b12ca4fff2a12aed69efcc/stream.mp4</location>
 			    <extension application="http://www.videolan.org/vlc/playlist/0">
                     <vlc:id>41</vlc:id>
 				    <vlc:option>network-caching=1000</vlc:option>
 			    </extension>
 		    </track>
 <track>
-            <title>kanald-s4</title>
-            <location>http://127.0.0.1:8000/pid/a542cc21786a9444a7bf11564c8a23cc99b396f5/stream.mp4</location>
+            <title>jetix-junior-s2</title>
+            <location>http://acelinux:8000/pid/2f3e3b42c24f779f20c89b3b125548a73350e538/stream.mp4</location>
 			    <extension application="http://www.videolan.org/vlc/playlist/0">
                     <vlc:id>42</vlc:id>
 				    <vlc:option>network-caching=1000</vlc:option>
 			    </extension>
 		    </track>
 <track>
-            <title>look-tv-plus-s2</title>
-            <location>http://127.0.0.1:8000/pid/b1b208eec48e2373ea84723047a4643523d847bc/stream.mp4</location>
+            <title>kanald</title>
+            <location>http://acelinux:8000/pid/de2b65a8c41b8efa99f634436f17ef4cf22e41fa/stream.mp4</location>
 			    <extension application="http://www.videolan.org/vlc/playlist/0">
                     <vlc:id>43</vlc:id>
 				    <vlc:option>network-caching=1000</vlc:option>
 			    </extension>
 		    </track>
 <track>
-            <title>look-tv-s1</title>
-            <location>http://127.0.0.1:8000/pid/70674c7464a8d83e5b1eee7a8bd46194d7e1e321/stream.mp4</location>
+            <title>kanald-s4</title>
+            <location>http://acelinux:8000/pid/a542cc21786a9444a7bf11564c8a23cc99b396f5/stream.mp4</location>
 			    <extension application="http://www.videolan.org/vlc/playlist/0">
                     <vlc:id>44</vlc:id>
 				    <vlc:option>network-caching=1000</vlc:option>
 			    </extension>
 		    </track>
 <track>
-            <title>minimaxro-s2</title>
-            <location>http://127.0.0.1:8000/pid/5dc6b384a3c845f2cb4674d6eac3a278ef417f6f/stream.mp4</location>
+            <title>kisslive</title>
+            <location>http://acelinux:8000/pid/2e75721c71458630cf77df3e779b708d0169ec51/stream.mp4</location>
 			    <extension application="http://www.videolan.org/vlc/playlist/0">
                     <vlc:id>45</vlc:id>
 				    <vlc:option>network-caching=1000</vlc:option>
 			    </extension>
 		    </track>
 <track>
-            <title>movie-s1</title>
-            <location>http://127.0.0.1:8000/pid/71b10e3c447edd2d7bb0c69271143d7e6761b187/stream.mp4</location>
+            <title>look-tv-plus-s1</title>
+            <location>http://acelinux:8000/pid/b1b208eec48e2373ea84723047a4643523d847bc/stream.mp4</location>
 			    <extension application="http://www.videolan.org/vlc/playlist/0">
                     <vlc:id>46</vlc:id>
 				    <vlc:option>network-caching=1000</vlc:option>
 			    </extension>
 		    </track>
 <track>
-            <title>n24</title>
-            <location>http://127.0.0.1:8000/pid/73af150498812ed96e38eaa722a670e1d88290d3/stream.mp4</location>
+            <title>look-tv-s2</title>
+            <location>http://acelinux:8000/pid/70674c7464a8d83e5b1eee7a8bd46194d7e1e321/stream.mp4</location>
 			    <extension application="http://www.videolan.org/vlc/playlist/0">
                     <vlc:id>47</vlc:id>
 				    <vlc:option>network-caching=1000</vlc:option>
 			    </extension>
 		    </track>
 <track>
-            <title>natgeo</title>
-            <location>http://127.0.0.1:8000/pid/f83d60f3424235907660581d5b46c9241210931a/stream.mp4</location>
+            <title>minimaxro</title>
+            <location>http://acelinux:8000/pid/00137cf2cc16d1a7588c87567439d625f3478475/stream.mp4</location>
 			    <extension application="http://www.videolan.org/vlc/playlist/0">
                     <vlc:id>48</vlc:id>
 				    <vlc:option>network-caching=1000</vlc:option>
 			    </extension>
 		    </track>
 <track>
-            <title>natgeowild</title>
-            <location>http://127.0.0.1:8000/pid/6ffc5e411cb3054daa816592b28c1dff542848d8/stream.mp4</location>
+            <title>movie-s1</title>
+            <location>http://acelinux:8000/pid/98e648ee2dcb81b3648353b6733b111e4636d004/stream.mp4</location>
 			    <extension application="http://www.videolan.org/vlc/playlist/0">
                     <vlc:id>49</vlc:id>
 				    <vlc:option>network-caching=1000</vlc:option>
 			    </extension>
 		    </track>
 <track>
-            <title>nationaltv</title>
-            <location>http://127.0.0.1:8000/pid/21e69e8bd76fadd78d7f8e2e3024be1e424c6407/stream.mp4</location>
+            <title>n24</title>
+            <location>http://acelinux:8000/pid/8cd1ef669da1347463a4288159f6253b83091fb0/stream.mp4</location>
 			    <extension application="http://www.videolan.org/vlc/playlist/0">
                     <vlc:id>50</vlc:id>
 				    <vlc:option>network-caching=1000</vlc:option>
 			    </extension>
 		    </track>
 <track>
-            <title>nationaltv-s3</title>
-            <location>http://127.0.0.1:8000/pid/5c9b5db90ef00d636a28a53c3581af2ea8b2cfab/stream.mp4</location>
+            <title>natgeo</title>
+            <location>http://acelinux:8000/pid/3673db9f5177360b71f85c9e9655852131311134/stream.mp4</location>
 			    <extension application="http://www.videolan.org/vlc/playlist/0">
                     <vlc:id>51</vlc:id>
 				    <vlc:option>network-caching=1000</vlc:option>
 			    </extension>
 		    </track>
 <track>
-            <title>nickelodeon-jr</title>
-            <location>http://127.0.0.1:8000/pid/d59adc88c9d992fe5cbe23e1451437ebd591c576/stream.mp4</location>
+            <title>natgeowild</title>
+            <location>http://acelinux:8000/pid/6ffc5e411cb3054daa816592b28c1dff542848d8/stream.mp4</location>
 			    <extension application="http://www.videolan.org/vlc/playlist/0">
                     <vlc:id>52</vlc:id>
 				    <vlc:option>network-caching=1000</vlc:option>
 			    </extension>
 		    </track>
 <track>
-            <title>nickelodeon-s2</title>
-            <location>http://127.0.0.1:8000/pid/75d08991119b34421e145c18dd53c247567fbee4/stream.mp4</location>
+            <title>nationaltv</title>
+            <location>http://acelinux:8000/pid/12f626fc26476ec74545b57094b1f9611036286a/stream.mp4</location>
 			    <extension application="http://www.videolan.org/vlc/playlist/0">
                     <vlc:id>53</vlc:id>
 				    <vlc:option>network-caching=1000</vlc:option>
 			    </extension>
 		    </track>
 <track>
-            <title>paprika-s1</title>
-            <location>http://127.0.0.1:8000/pid/d17be332112a39601bcbfc7395873041692aaf70/stream.mp4</location>
+            <title>nickelodeon-jr-s2</title>
+            <location>http://acelinux:8000/pid/a31dc9f81c76e73f0fdb5e4e5700a40b67e500f7/stream.mp4</location>
 			    <extension application="http://www.videolan.org/vlc/playlist/0">
                     <vlc:id>54</vlc:id>
 				    <vlc:option>network-caching=1000</vlc:option>
 			    </extension>
 		    </track>
 <track>
-            <title>primatv</title>
-            <location>http://127.0.0.1:8000/pid/deb38e22f17ae705fd15fae6f214dc4dffd4cc03/stream.mp4</location>
+            <title>nickelodeon-s2</title>
+            <location>http://acelinux:8000/pid/db12109b0b1b048141a967e75a9acb2031477896/stream.mp4</location>
 			    <extension application="http://www.videolan.org/vlc/playlist/0">
                     <vlc:id>55</vlc:id>
 				    <vlc:option>network-caching=1000</vlc:option>
 			    </extension>
 		    </track>
 <track>
-            <title>procinema</title>
-            <location>http://127.0.0.1:8000/pid/9725ef621ea8af1aabd0401aa4b2cc2a92ca9a08/stream.mp4</location>
+            <title>paprika-s1</title>
+            <location>http://acelinux:8000/pid/c79bfcfdcb4dffa870b939a04de2f2b3d36306ac/stream.mp4</location>
 			    <extension application="http://www.videolan.org/vlc/playlist/0">
                     <vlc:id>56</vlc:id>
 				    <vlc:option>network-caching=1000</vlc:option>
 			    </extension>
 		    </track>
 <track>
-            <title>protv-s2</title>
-            <location>http://127.0.0.1:8000/pid/0fc0c169b6dbc059a06211cfd40178d4be85d8d5/stream.mp4</location>
+            <title>primatv-s2</title>
+            <location>http://acelinux:8000/pid/deb38e22f17ae705fd15fae6f214dc4dffd4cc03/stream.mp4</location>
 			    <extension application="http://www.videolan.org/vlc/playlist/0">
                     <vlc:id>57</vlc:id>
 				    <vlc:option>network-caching=1000</vlc:option>
 			    </extension>
 		    </track>
 <track>
-            <title>protv-s4</title>
-            <location>http://127.0.0.1:8000/pid/82fe3d31346b4e22b17b97abc05c2ddc65b74a8d/stream.mp4</location>
+            <title>procinema-s2</title>
+            <location>http://acelinux:8000/pid/9725ef621ea8af1aabd0401aa4b2cc2a92ca9a08/stream.mp4</location>
 			    <extension application="http://www.videolan.org/vlc/playlist/0">
                     <vlc:id>58</vlc:id>
 				    <vlc:option>network-caching=1000</vlc:option>
 			    </extension>
 		    </track>
 <track>
-            <title>realitatea</title>
-            <location>http://127.0.0.1:8000/pid/f189266fd56439343c293cf92ed5ba01159dad6b/stream.mp4</location>
+            <title>protv-s2</title>
+            <location>http://acelinux:8000/pid/0fc0c169b6dbc059a06211cfd40178d4be85d8d5/stream.mp4</location>
 			    <extension application="http://www.videolan.org/vlc/playlist/0">
                     <vlc:id>59</vlc:id>
 				    <vlc:option>network-caching=1000</vlc:option>
 			    </extension>
 		    </track>
 <track>
-            <title>realitatea-rtv</title>
-            <location>http://127.0.0.1:8000/pid/0f9d840f02bd28cf603f3d80e0f6def5b4814cb5/stream.mp4</location>
+            <title>protv-s4</title>
+            <location>http://acelinux:8000/pid/82fe3d31346b4e22b17b97abc05c2ddc65b74a8d/stream.mp4</location>
 			    <extension application="http://www.videolan.org/vlc/playlist/0">
                     <vlc:id>60</vlc:id>
 				    <vlc:option>network-caching=1000</vlc:option>
 			    </extension>
 		    </track>
 <track>
-            <title>realitatea-rtv-s2</title>
-            <location>http://127.0.0.1:8000/pid/0c72ce84352f6a5c5c6210c3b6ed157cf726b121/stream.mp4</location>
+            <title>realitatea</title>
+            <location>http://acelinux:8000/pid/f54a5c78835e4a6d4f1ecf6125b6f41405c97f3f/stream.mp4</location>
 			    <extension application="http://www.videolan.org/vlc/playlist/0">
                     <vlc:id>61</vlc:id>
 				    <vlc:option>network-caching=1000</vlc:option>
 			    </extension>
 		    </track>
 <track>
-            <title>realitatea-s2</title>
-            <location>http://127.0.0.1:8000/pid/22271fe5c823903d929ee389bb96653f93c4a01d/stream.mp4</location>
+            <title>realitatea-rtv</title>
+            <location>http://acelinux:8000/pid/2df08c715ec2a7d6cf1458b4eee974525ebcd9fb/stream.mp4</location>
 			    <extension application="http://www.videolan.org/vlc/playlist/0">
                     <vlc:id>62</vlc:id>
 				    <vlc:option>network-caching=1000</vlc:option>
 			    </extension>
 		    </track>
 <track>
-            <title>sportro-s2</title>
-            <location>http://127.0.0.1:8000/pid/a94cab00012c59428f9b136e25e4861281050888/stream.mp4</location>
+            <title>sportro</title>
+            <location>http://acelinux:8000/pid/5fbbe41ef4990e5feea5ffdffa0c2d2c3448ad7a/stream.mp4</location>
 			    <extension application="http://www.videolan.org/vlc/playlist/0">
                     <vlc:id>63</vlc:id>
 				    <vlc:option>network-caching=1000</vlc:option>
@@ -508,7 +508,7 @@
 		    </track>
 <track>
             <title>sport-s1</title>
-            <location>http://127.0.0.1:8000/pid/5196b34efe50cf2e9523d5a29bcd111a48fbdc0c/stream.mp4</location>
+            <location>http://acelinux:8000/pid/98c11147917968aa911a1838bd10508194e291b2/stream.mp4</location>
 			    <extension application="http://www.videolan.org/vlc/playlist/0">
                     <vlc:id>64</vlc:id>
 				    <vlc:option>network-caching=1000</vlc:option>
@@ -516,7 +516,7 @@
 		    </track>
 <track>
             <title>sport-s2</title>
-            <location>http://127.0.0.1:8000/pid/cc24b55315535d9d2481ea235772dbe9ecb1540a/stream.mp4</location>
+            <location>http://acelinux:8000/pid/5cef77fc9811676f6eff9f8068987491fef97554/stream.mp4</location>
 			    <extension application="http://www.videolan.org/vlc/playlist/0">
                     <vlc:id>65</vlc:id>
 				    <vlc:option>network-caching=1000</vlc:option>
@@ -524,7 +524,7 @@
 		    </track>
 <track>
             <title>sport-s3</title>
-            <location>http://127.0.0.1:8000/pid/54b1587d64dfc8eb3005d80f0f7be6303e3adb08/stream.mp4</location>
+            <location>http://acelinux:8000/pid/aedfbbd1765fc4692fca2ac4b6811c1fa7986ad8/stream.mp4</location>
 			    <extension application="http://www.videolan.org/vlc/playlist/0">
                     <vlc:id>66</vlc:id>
 				    <vlc:option>network-caching=1000</vlc:option>
@@ -532,39 +532,39 @@
 		    </track>
 <track>
             <title>sport-s4</title>
-            <location>http://127.0.0.1:8000/pid/6cfbdc7bba7e82da4572589c4326d46ca26d2743/stream.mp4</location>
+            <location>http://acelinux:8000/pid/6cfbdc7bba7e82da4572589c4326d46ca26d2743/stream.mp4</location>
 			    <extension application="http://www.videolan.org/vlc/playlist/0">
                     <vlc:id>67</vlc:id>
 				    <vlc:option>network-caching=1000</vlc:option>
 			    </extension>
 		    </track>
 <track>
-            <title>tcm-s1</title>
-            <location>http://127.0.0.1:8000/pid/cee85b36ac2ca51feda951c365db89c5b3ead4a7/stream.mp4</location>
+            <title>taraf</title>
+            <location>http://acelinux:8000/pid/c296f3d040d78e263ddd64b04e9523604ae58a23/stream.mp4</location>
 			    <extension application="http://www.videolan.org/vlc/playlist/0">
                     <vlc:id>68</vlc:id>
 				    <vlc:option>network-caching=1000</vlc:option>
 			    </extension>
 		    </track>
 <track>
-            <title>tv100</title>
-            <location>http://127.0.0.1:8000/pid/90121f9f631dc2b18e2eb8275069b3f39cc9b1bd/stream.mp4</location>
+            <title>tcm-s1</title>
+            <location>http://acelinux:8000/pid/cee85b36ac2ca51feda951c365db89c5b3ead4a7/stream.mp4</location>
 			    <extension application="http://www.videolan.org/vlc/playlist/0">
                     <vlc:id>69</vlc:id>
 				    <vlc:option>network-caching=1000</vlc:option>
 			    </extension>
 		    </track>
 <track>
-            <title>tvr1</title>
-            <location>http://127.0.0.1:8000/pid/d6dcd36b64b733acca5ceb33559f53f629c1fca5/stream.mp4</location>
+            <title>tv100</title>
+            <location>http://acelinux:8000/pid/90121f9f631dc2b18e2eb8275069b3f39cc9b1bd/stream.mp4</location>
 			    <extension application="http://www.videolan.org/vlc/playlist/0">
                     <vlc:id>70</vlc:id>
 				    <vlc:option>network-caching=1000</vlc:option>
 			    </extension>
 		    </track>
 <track>
-            <title>tvr1-s4</title>
-            <location>http://127.0.0.1:8000/pid/30fc98e21a83b3a4d2925097d76d1d0729ca6dbd/stream.mp4</location>
+            <title>tvr1-s5</title>
+            <location>http://acelinux:8000/pid/30fc98e21a83b3a4d2925097d76d1d0729ca6dbd/stream.mp4</location>
 			    <extension application="http://www.videolan.org/vlc/playlist/0">
                     <vlc:id>71</vlc:id>
 				    <vlc:option>network-caching=1000</vlc:option>
@@ -572,49 +572,57 @@
 		    </track>
 <track>
             <title>tvr2</title>
-            <location>http://127.0.0.1:8000/pid/6162b6c4f47b7c9ae13563382a4ec1efd1916e45/stream.mp4</location>
+            <location>http://acelinux:8000/pid/6162b6c4f47b7c9ae13563382a4ec1efd1916e45/stream.mp4</location>
 			    <extension application="http://www.videolan.org/vlc/playlist/0">
                     <vlc:id>72</vlc:id>
 				    <vlc:option>network-caching=1000</vlc:option>
 			    </extension>
 		    </track>
 <track>
-            <title>universal-ch</title>
-            <location>http://127.0.0.1:8000/pid/a9d3cf0b0a672b306f7f60f4f92d4a6f620608b0/stream.mp4</location>
+            <title>tvr-hd-s3</title>
+            <location>http://acelinux:8000/pid/eef0bbebefa52e8ab88bf7ba7e33df8a9099f75b/stream.mp4</location>
 			    <extension application="http://www.videolan.org/vlc/playlist/0">
                     <vlc:id>73</vlc:id>
 				    <vlc:option>network-caching=1000</vlc:option>
 			    </extension>
 		    </track>
 <track>
-            <title>via-explorer</title>
-            <location>http://127.0.0.1:8000/pid/6cb4a8cfc43e99efc0195a86437c4f96a25b8ea7/stream.mp4</location>
+            <title>universal-ch</title>
+            <location>http://acelinux:8000/pid/dd7d61a50bdde744c4d4aeeab80c5e6dd8bc0cc9/stream.mp4</location>
 			    <extension application="http://www.videolan.org/vlc/playlist/0">
                     <vlc:id>74</vlc:id>
 				    <vlc:option>network-caching=1000</vlc:option>
 			    </extension>
 		    </track>
 <track>
-            <title>via-history</title>
-            <location>http://127.0.0.1:8000/pid/428306b01ec262d0ba1de65c526b020abd3e612e/stream.mp4</location>
+            <title>via-explorer</title>
+            <location>http://acelinux:8000/pid/6cb4a8cfc43e99efc0195a86437c4f96a25b8ea7/stream.mp4</location>
 			    <extension application="http://www.videolan.org/vlc/playlist/0">
                     <vlc:id>75</vlc:id>
 				    <vlc:option>network-caching=1000</vlc:option>
 			    </extension>
 		    </track>
 <track>
-            <title>via-nature</title>
-            <location>http://127.0.0.1:8000/pid/239e180e279f49bba4a8c607bf3df6d89c95088b/stream.mp4</location>
+            <title>via-history</title>
+            <location>http://acelinux:8000/pid/428306b01ec262d0ba1de65c526b020abd3e612e/stream.mp4</location>
 			    <extension application="http://www.videolan.org/vlc/playlist/0">
                     <vlc:id>76</vlc:id>
 				    <vlc:option>network-caching=1000</vlc:option>
 			    </extension>
 		    </track>
 <track>
-            <title>zu</title>
-            <location>http://127.0.0.1:8000/pid/1fdd032d312b2698f459d83aaf0fe8d0896a449d/stream.mp4</location>
+            <title>via-nature</title>
+            <location>http://acelinux:8000/pid/239e180e279f49bba4a8c607bf3df6d89c95088b/stream.mp4</location>
 			    <extension application="http://www.videolan.org/vlc/playlist/0">
                     <vlc:id>77</vlc:id>
+				    <vlc:option>network-caching=1000</vlc:option>
+			    </extension>
+		    </track>
+<track>
+            <title>zu</title>
+            <location>http://acelinux:8000/pid/1fdd032d312b2698f459d83aaf0fe8d0896a449d/stream.mp4</location>
+			    <extension application="http://www.videolan.org/vlc/playlist/0">
+                    <vlc:id>78</vlc:id>
 				    <vlc:option>network-caching=1000</vlc:option>
 			    </extension>
 		    </track>
